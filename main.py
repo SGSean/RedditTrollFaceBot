@@ -8,4 +8,10 @@ class discord.Message
 msg = ("test")              
               
 def send():
+  @bot.event
+  author = message.author
+  authorid = message.author.id
+  print ("@{} user sent a message. (id: {})".format(author, authorid))
+ 
+Button()
   
